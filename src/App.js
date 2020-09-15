@@ -1,4 +1,6 @@
 import React from 'react';
+
+// styles
 import './scss/vars.scss';
 import './scss/global.scss';
 
