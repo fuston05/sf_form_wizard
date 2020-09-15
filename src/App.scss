@@ -1,0 +1,7 @@
+// App styles
+
+@import './scss/mixins.scss';
+
+.App{
+  @include dFlex();
+}

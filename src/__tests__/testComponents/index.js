@@ -1,9 +1,2 @@
-import { TestForm } from './TestForm';
-import { TestButton } from './TestForm';
-
-
-
-export {
-  TestForm,
-  TestButton,
-}
+export { TestForm } from './TestForm';
+export { TestButton } from './TestButton';

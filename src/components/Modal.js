@@ -1,14 +1,17 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+
+// styles
+import './Modal.scss';
 
 const Modal = (props) => {
   const [formsData, setFormsData]= useState({});
   const [showModal, setShowModal]= useState(true);
 
   return (
-    <div data-testid='modalComponent'>
+    <div className= 'modalComponent' data-testid='modalComponent'>
 
     </div>
-  )
-}
+  );
+};
 
 export default Modal;

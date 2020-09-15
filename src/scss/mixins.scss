@@ -1,0 +1,8 @@
+//  SCSS Mixins
+
+@mixin dFlex($dir: row, $just: center, $align: center) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $just;
+  align-items: $align;
+}

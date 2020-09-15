@@ -1,0 +1,12 @@
+// Modal.js Styles
+
+@import '../scss/mixins.scss';
+
+.modalComponent{
+  @include dFlex();
+  margin: 5% 0 0 0;
+  padding: 1%;
+  height: auto;
+  width: 80vw;
+  background-color: rgba(0, 0, 0, 0.6);
+}
